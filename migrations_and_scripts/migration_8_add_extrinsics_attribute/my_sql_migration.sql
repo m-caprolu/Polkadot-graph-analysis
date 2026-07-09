@@ -1,0 +1,1 @@
+ALTER TABLE extrinsic ADD COLUMN call_args JSON NULL DEFAULT NULL;

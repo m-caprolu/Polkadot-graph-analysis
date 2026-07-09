@@ -79,8 +79,11 @@ class Transaction(BaseModel):
     block_id = sa.Column(sa.Integer(), primary_key=True, index=True)
     block = relationship(Block, foreign_keys=[block_id], primaryjoin=block_id == Block.id)
     extrinsic_idx = sa.Column(sa.Integer(), primary_key=True, index=True)
+    nesting_idx = sa.Column(sa.Integer(), primary_key=True, index=True,
+                        default=0)  # Added to handle nested transactions like Utiltiy, Proxy, Multisig
     batch_idx = sa.Column(sa.Integer(), primary_key=True, index=True,
                           default=0)  # Added to handle Utility Batch extrinsics
+    unique_sequence = sa.Column(sa.Integer(), primary_key=True, index=True, default=0)
     extrinsic_length = sa.Column(sa.String(10))
     extrinsic_hash = sa.Column(sa.String(66), nullable=True)
     signed = sa.Column(sa.SmallInteger(), nullable=False)
@@ -104,8 +107,7 @@ class Transaction(BaseModel):
     timestamp = sa.Column(sa.BigInteger(), nullable=True)
 
     def serialize_id(self):
-        return '{}-{}-{}'.format(self.block_id, self.extrinsic_idx, self.batch_idx)
-
+        return '{}-{}-{}'.format(self.block_id, self.extrinsic_idx, self.nesting_idx, self.batch_idx)
 
 class Account(BaseModel):
     __tablename__ = 'account'
@@ -181,3 +183,29 @@ class Event(BaseModel):
 
     def serialize_id(self):
         return '{}-{}'.format(self.block_id, self.event_idx)
+
+class ProxyAccount(BaseModel):
+    __tablename__ = 'proxy_account'
+
+    address = sa.Column(sa.String(64), primary_key=True)
+    proxied_account_address = sa.Column(sa.String(64), primary_key=True)
+    proxy_type = sa.Column(sa.String(64))
+
+    def serialize_id(self):
+        return '{}-{}'.format(self.block_id, self.event_idx)
+
+class MultisigMemberAccount(BaseModel):
+    __tablename__ = 'multisig_member_account'
+
+    address = sa.Column(sa.String(255), primary_key=True)
+    multisig_account_address = sa.Column(sa.String(255), primary_key=True)
+
+class ProxyExtrinsicRealAddress(BaseModel):
+    __tablename__ = 'proxy_extrinsic_real_address'
+
+    block_id = sa.Column(sa.Integer(), primary_key=True, index=True)
+    extrinsic_idx = sa.Column(sa.Integer(), primary_key=True, index=True)
+    nesting_idx = sa.Column(sa.Integer(), primary_key=True, index=True, default=0)
+    batch_idx = sa.Column(sa.Integer(), primary_key=True, index=True, default=0)
+    unique_sequence = sa.Column(sa.Integer(), primary_key=True, index=True, default=0)
+    real_address = sa.Column(sa.String(64), nullable=False, index=True)

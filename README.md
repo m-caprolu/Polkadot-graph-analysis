@@ -38,4 +38,11 @@ Make sure to install the latest MVSC Build Tools, Windows SDK corresponding your
 If you run from commandline, ensure that you run this command for the program to run:
 > set "PYTHONPATH=%cd%" 
 
+#### Database setup
+1. Install mysql locally
+2. Connect to mysql using: `sudo mysql -u root`
+3. Run commands in `schema.sql`
 
+#### Command to Run:
+```python3 -m app.scripts.main --url=wss://rpc.polkadot.io```
+- Write `y` to accept option. E.g. Clear DB.

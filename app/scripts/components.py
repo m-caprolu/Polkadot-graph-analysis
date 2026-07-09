@@ -20,7 +20,7 @@ from timeit import default_timer as timer
 import traceback
 
 # create and configure logger
-filename = "logs2/components_size_aug14.log"
+filename = "logs/components_size_april_25.log"
 logging.basicConfig(level=logging.INFO,
                     handlers=[RotatingFileHandler(filename, maxBytes=1000000000, backupCount=100, mode='a'),
                               logging.StreamHandler(sys.stdout)],
@@ -35,7 +35,7 @@ if __name__ == '__main__':
         # Graph Analysis
         start = timer()
 
-        digraph = nx.read_gpickle('output/multidigraph_without_loops_july.gpickle')
+        digraph = nx.read_gpickle('exported_graph/updated_graph_25_543_168.gpickle')
         logger.info("Graph Reading COMPLETED...")
 
         # component size histogram
@@ -78,8 +78,12 @@ if __name__ == '__main__':
         plt.ylabel('Fraction of Nodes (log)')
         plt.legend(loc="upper right")
         fig.tight_layout()
-        plt.savefig('output2/component/hist-component-dist.png', bbox_inches='tight')
-
+        try:
+            import pdb; pdb.set_trace()
+            plt.savefig('output/hist-component-dist.png', bbox_inches='tight')
+        except Exception as err:
+            import pdb; pdb.set_trace()
+        
         logger.info("=======================================END======================================")
         logger.info("Graph Analysis Total Execution Time (seconds): {}".format(timer() - start))
 

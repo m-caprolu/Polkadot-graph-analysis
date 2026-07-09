@@ -334,15 +334,15 @@ if __name__ == '__main__':
         # plt.clf()
 
         #
-        # logger.info("\tNumber of self-loops: {}".format(nx.number_of_selfloops(digraph)))
-        # logger.info("\tNumber of Nodes: {}".format(nx.number_of_nodes(digraph)))
-        # logger.info('\tNumber of edges: {}'.format(nx.number_of_edges(digraph)))
-        # logger.info('\tAssortativity: {}'.format(nx.degree_assortativity_coefficient(digraph)))
-        # logger.info('\tReciprocity: {}'.format(nx.overall_reciprocity(digraph)))
-        # logger.info('\tPearson: {}'.format(nx.degree_pearson_correlation_coefficient(digraph)))
-        # logger.info("\tDensity: {}".format(nx.density(digraph)))
-        # logger.info('\t#SCC: {}'.format(nx.number_strongly_connected_components(digraph)))
-        # logger.info('\t#WCC: {}'.format(nx.number_weakly_connected_components(digraph)))
+        logger.info("\tNumber of self-loops: {}".format(nx.number_of_selfloops(digraph)))
+        logger.info("\tNumber of Nodes: {}".format(nx.number_of_nodes(digraph)))
+        logger.info('\tNumber of edges: {}'.format(nx.number_of_edges(digraph)))
+        logger.info('\tAssortativity: {}'.format(nx.degree_assortativity_coefficient(digraph)))
+        logger.info('\tReciprocity: {}'.format(nx.overall_reciprocity(digraph)))
+        logger.info('\tPearson: {}'.format(nx.degree_pearson_correlation_coefficient(digraph)))
+        logger.info("\tDensity: {}".format(nx.density(digraph)))
+        logger.info('\t#SCC: {}'.format(nx.number_strongly_connected_components(digraph)))
+        logger.info('\t#WCC: {}'.format(nx.number_weakly_connected_components(digraph)))
 
         # Found infinite path length because the graph is not connected
         # logger.info("\tUndirected Graph Diameter: {}".format(nx.diameter(graph)))

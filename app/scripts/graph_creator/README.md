@@ -1,0 +1,2 @@
+- Run `python3 -m app.scripts.graph_creator.graph_creator_test` to run test cases from root folder (before /app)
+- Run `python3 -m app.scripts.graph_creator.graph_creator` to run the graph creator from root folder (before /app)

@@ -3,12 +3,12 @@ import decimal
 from datetime import datetime
 
 import pytz
-from dictalchemy import DictableModel
+# from dictalchemy import DictableModel
 from sqlalchemy.ext.declarative import declarative_base
 from substrateinterface.utils.ss58 import ss58_encode
 
 
-class BaseModelObj(DictableModel):
+class BaseModelObj():
 
     serialize_exclude = None
 
@@ -36,7 +36,7 @@ class BaseModelObj(DictableModel):
         obj_dict = {
             'type': self.serialize_type,
             'id': self.serialize_id(),
-            'attributes': self.asdict(exclude=exclude or self.serialize_exclude)
+            'attributes': {} #self.asdict(exclude=exclude or self.serialize_exclude)
         }
 
         obj_dict = self.serialize_formatting_hook(obj_dict)

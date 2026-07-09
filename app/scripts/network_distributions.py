@@ -17,6 +17,7 @@ import traceback
 from datetime import datetime
 from logging.handlers import RotatingFileHandler
 from timeit import default_timer as timer
+import os
 
 import matplotlib.pyplot as plt
 import networkx as nx
@@ -24,7 +25,7 @@ import powerlaw  # Power laws are probability distributions with the form:p(x)âˆ
 from dateutil.rrule import rrule, MONTHLY
 
 # create and configure logger
-filename = "../../logs2/network_distributions_aug16_withoutloops.log"
+filename = "./logs/network_distributions.log"
 logging.basicConfig(level=logging.INFO,
                     handlers=[RotatingFileHandler(filename, maxBytes=1000000000, backupCount=100, mode='a'),
                               logging.StreamHandler(sys.stdout)],
@@ -115,7 +116,7 @@ def loop_months(graph):
             plt.title('In-Degree Distribution (with power-law fitting)')
             plt.xlabel('Vertex Degree')
             plt.ylabel('PDF of Vertices')
-            plt.savefig('output2/degree/monthly-{}-FitCurve.png'.format(month), bbox_inches='tight')
+            plt.savefig('output/degree/monthly-{}-FitCurve.png'.format(month), bbox_inches='tight')
 
             logger.info("=======================================NEXT======================================")
 
@@ -129,9 +130,14 @@ if __name__ == '__main__':
         # Graph Analysis
         start = timer()
 
-        digraph = nx.read_gpickle('../../output2/multidigraph_without_loops_july.gpickle')
+        script_dir = os.path.dirname(__file__)
+        graph_file_path = os.path.join(script_dir, '../../exported_graph/updated_graph_71.gpickle')
+        digraph = nx.read_gpickle(graph_file_path)
+
+        # digraph = nx.read_gpickle('../../output2/multidigraph_without_loops_july.gpickle')
+        
         logger.info("Graph Reading COMPLETED...")
-        loop_months(digraph)
+        # loop_months(digraph)
 
         # Degree Distribution
         out_degree_freq = degree_histogram_directed(digraph, out_degree=True)
@@ -148,7 +154,7 @@ if __name__ == '__main__':
         plt.xlabel('Degree (log)')
         fig.suptitle('In-Degree and Out-Degree Distribution')
         plt.tight_layout()
-        plt.savefig('output2/degree/InOutDegreeDistribution.png', bbox_inches='tight')
+        plt.savefig('output/degree/InOutDegreeDistribution.png', bbox_inches='tight')
 
         total_degree = degree_histogram_directed(digraph)
         plt.figure(figsize=(12, 8))
@@ -156,7 +162,7 @@ if __name__ == '__main__':
         plt.xlabel('Total Degree (log)')
         plt.ylabel('Number of Nodes (log)')
         plt.title('Degree Distribution')
-        plt.savefig('output2/degree/TotalDegreeDistribution.png', bbox_inches='tight')
+        plt.savefig('output/degree/TotalDegreeDistribution.png', bbox_inches='tight')
 
         # https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6399239/
         indegree_sequence = sorted([d for n, d in digraph.in_degree()], reverse=True)
@@ -170,7 +176,7 @@ if __name__ == '__main__':
         plt.title('In-Degree Distribution (with power-law fitting)')
         plt.xlabel('Vertex In-Degree')
         plt.ylabel('PDF of Vertices')
-        plt.savefig('output2/degree/power-law-indegree.png', bbox_inches='tight')
+        plt.savefig('output/degree/power-law-indegree.png', bbox_inches='tight')
 
         outdegree_sequence = sorted([d for n, d in digraph.out_degree()], reverse=True)
         fig = plt.figure(figsize=(12, 8))
@@ -183,7 +189,7 @@ if __name__ == '__main__':
         plt.title('Out-Degree Distribution (with power-law fitting)')
         plt.xlabel('Vertex Out-Degree')
         plt.ylabel('PDF of Vertices')
-        plt.savefig('output2/degree/power-law-outdegree.png', bbox_inches='tight')
+        plt.savefig('output/degree/power-law-outdegree.png', bbox_inches='tight')
 
         degree_sequence = sorted([d for n, d in digraph.degree()], reverse=True)
         fig = plt.figure(figsize=(12, 8))
@@ -196,7 +202,7 @@ if __name__ == '__main__':
         plt.title('Degree Distribution (with power-law fitting)')
         plt.xlabel('Vertex Degree')
         plt.ylabel('PDF of Vertices')
-        plt.savefig('output2/degree/power-law-degree.png', bbox_inches='tight')
+        plt.savefig('output/degree/power-law-degree.png', bbox_inches='tight')
 
         # component size distribution (line graph)
         plt.figure(figsize=(12, 8))
@@ -215,7 +221,7 @@ if __name__ == '__main__':
         plt.ylabel('Fraction of Nodes (log)')
         plt.legend(loc="upper right")
         plt.title('Components Size Distribution')
-        plt.savefig('output2/component/full-dist.png', bbox_inches='tight')
+        plt.savefig('output/component/full-dist.png', bbox_inches='tight')
 
         # component size histogram
         plt.figure(figsize=(12, 8))
@@ -257,7 +263,7 @@ if __name__ == '__main__':
         plt.ylabel('# Nodes (log)')
         plt.legend(loc="upper right")
         fig.tight_layout()
-        plt.savefig('output2/component/hist-component-dist.png', bbox_inches='tight')
+        plt.savefig('output/component/hist-component-dist.png', bbox_inches='tight')
 
         logger.info("=======================================END======================================")
         logger.info("Graph Analysis Total Execution Time (seconds): {}".format(timer() - start))

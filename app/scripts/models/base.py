@@ -13,12 +13,12 @@ import decimal
 from datetime import datetime
 
 import pytz
-from dictalchemy import DictableModel
+# from dictalchemy import DictableModel
 from sqlalchemy.ext.declarative import declarative_base
 from substrateinterface.utils.ss58 import ss58_encode
 
 
-class BaseModelObj(DictableModel):
+class BaseModelObj():
 
     serialize_exclude = None
 

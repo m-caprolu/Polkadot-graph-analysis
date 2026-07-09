@@ -1,0 +1,386 @@
+[2024-12-17T16:26:45] Processing transactions in batches of 2000000...
+[2024-12-17T16:26:52] Transactions count: 193413 between blocks 0 and 2000000
+[2024-12-17T16:26:52] Graph created with 53894 nodes and 193413 edges
+[2024-12-17T16:26:52] Batch 0-1999999 saved: exported_graph/0_1999999.gpickle
+[2024-12-17T16:27:15] Transactions count: 885375 between blocks 2000000 and 4000000
+[2024-12-17T16:27:18] Graph created with 271772 nodes and 885375 edges
+[2024-12-17T16:27:19] Batch 2000000-3999999 saved: exported_graph/2000000_3999999.gpickle
+[2024-12-17T16:28:09] Transactions count: 1510107 between blocks 4000000 and 6000000
+[2024-12-17T16:28:18] Graph created with 568521 nodes and 1510107 edges
+[2024-12-17T16:28:20] Batch 4000000-5999999 saved: exported_graph/4000000_5999999.gpickle
+[2024-12-17T16:29:30] Transactions count: 2621033 between blocks 6000000 and 8000000
+[2024-12-17T16:29:41] Graph created with 961199 nodes and 2621033 edges
+[2024-12-17T16:29:46] Batch 6000000-7999999 saved: exported_graph/6000000_7999999.gpickle
+[2024-12-17T16:30:34] Transactions count: 1601169 between blocks 8000000 and 10000000
+[2024-12-17T16:30:46] Graph created with 607062 nodes and 1601169 edges
+[2024-12-17T16:30:49] Batch 8000000-9999999 saved: exported_graph/8000000_9999999.gpickle
+[2024-12-17T16:31:20] Transactions count: 1016407 between blocks 10000000 and 12000000
+[2024-12-17T16:31:28] Graph created with 398746 nodes and 1016407 edges
+[2024-12-17T16:31:29] Batch 10000000-11999999 saved: exported_graph/10000000_11999999.gpickle
+[2024-12-17T16:32:08] Transactions count: 1136067 between blocks 12000000 and 14000000
+[2024-12-17T16:32:13] Graph created with 559325 nodes and 1136067 edges
+[2024-12-17T16:32:15] Batch 12000000-13999999 saved: exported_graph/12000000_13999999.gpickle
+[2024-12-17T16:32:45] Transactions count: 910245 between blocks 14000000 and 16000000
+[2024-12-17T16:32:51] Graph created with 357444 nodes and 910245 edges
+[2024-12-17T16:32:53] Batch 14000000-15999999 saved: exported_graph/14000000_15999999.gpickle
+[2024-12-17T16:33:22] Transactions count: 797728 between blocks 16000000 and 18000000
+[2024-12-17T16:33:25] Graph created with 321267 nodes and 797728 edges
+[2024-12-17T16:33:27] Batch 16000000-17999999 saved: exported_graph/16000000_17999999.gpickle
+[2024-12-17T16:36:06] Transactions count: 1686832 between blocks 18000000 and 20000000
+[2024-12-17T16:36:17] Graph created with 678024 nodes and 1686832 edges
+[2024-12-17T16:36:20] Batch 18000000-19999999 saved: exported_graph/18000000_19999999.gpickle
+[2024-12-17T16:36:52] Transactions count: 998102 between blocks 20000000 and 22000000
+[2024-12-17T16:36:57] Graph created with 377617 nodes and 998102 edges
+[2024-12-17T16:36:59] Batch 20000000-21999999 saved: exported_graph/20000000_21999999.gpickle
+[2024-12-17T16:37:07] Transactions count: 192325 between blocks 22000000 and 22645886
+[2024-12-17T16:37:09] Graph created with 86853 nodes and 192325 edges
+[2024-12-17T16:37:09] Batch 22000000-22645885 saved: exported_graph/22000000_22645885.gpickle
+[2024-12-17T16:37:09] Merging graphs...
+[2024-12-17T16:37:14] Statistics for 8000000_9999999.gpickle:
+[2024-12-17T16:37:14]   Number of nodes: 607062
+[2024-12-17T16:37:14]   Number of edges: 1601169
+[2024-12-17T16:37:14]
+[2024-12-17T16:37:14] Statistics for 4000000_5999999.gpickle:
+[2024-12-17T16:37:14]   Number of nodes: 568521
+[2024-12-17T16:37:14]   Number of edges: 1510107
+[2024-12-17T16:37:14]
+[2024-12-17T16:37:26] Statistics for Merged Graph 8000000_9999999.gpickle + 4000000_5999999.gpickle:
+[2024-12-17T16:37:26]   Number of nodes: 1116601
+[2024-12-17T16:37:26]   Number of edges: 3111276
+[2024-12-17T16:37:26]
+[2024-12-17T16:37:29] Merged 8000000_9999999.gpickle and 4000000_5999999.gpickle into merged_0.gpickle
+[2024-12-17T16:37:33] Statistics for 12000000_13999999.gpickle:
+[2024-12-17T16:37:33]   Number of nodes: 559325
+[2024-12-17T16:37:33]   Number of edges: 1136067
+[2024-12-17T16:37:33]
+[2024-12-17T16:37:33] Statistics for 16000000_17999999.gpickle:
+[2024-12-17T16:37:33]   Number of nodes: 321267
+[2024-12-17T16:37:34]   Number of edges: 797728
+[2024-12-17T16:37:34]
+[2024-12-17T16:37:41] Statistics for Merged Graph 12000000_13999999.gpickle + 16000000_17999999.gpickle:
+[2024-12-17T16:37:41]   Number of nodes: 822738
+[2024-12-17T16:37:41]   Number of edges: 1933795
+[2024-12-17T16:37:41]
+[2024-12-17T16:37:43] Merged 12000000_13999999.gpickle and 16000000_17999999.gpickle into merged_1.gpickle
+[2024-12-17T16:37:47] Statistics for 14000000_15999999.gpickle:
+[2024-12-17T16:37:47]   Number of nodes: 357444
+[2024-12-17T16:37:48]   Number of edges: 910245
+[2024-12-17T16:37:48]
+[2024-12-17T16:37:48] Statistics for 10000000_11999999.gpickle:
+[2024-12-17T16:37:48]   Number of nodes: 398746
+[2024-12-17T16:37:48]   Number of edges: 1016407
+[2024-12-17T16:37:48]
+[2024-12-17T16:37:54] Statistics for Merged Graph 14000000_15999999.gpickle + 10000000_11999999.gpickle:
+[2024-12-17T16:37:54]   Number of nodes: 704035
+[2024-12-17T16:37:55]   Number of edges: 1926652
+[2024-12-17T16:37:55]
+[2024-12-17T16:37:57] Merged 14000000_15999999.gpickle and 10000000_11999999.gpickle into merged_2.gpickle
+[2024-12-17T16:38:00] Statistics for 22000000_22645885.gpickle:
+[2024-12-17T16:38:00]   Number of nodes: 86853
+[2024-12-17T16:38:00]   Number of edges: 192325
+[2024-12-17T16:38:00]
+[2024-12-17T16:38:00] Statistics for 20000000_21999999.gpickle:
+[2024-12-17T16:38:00]   Number of nodes: 377617
+[2024-12-17T16:38:00]   Number of edges: 998102
+[2024-12-17T16:38:00]
+[2024-12-17T16:38:04] Statistics for Merged Graph 22000000_22645885.gpickle + 20000000_21999999.gpickle:
+[2024-12-17T16:38:04]   Number of nodes: 432853
+[2024-12-17T16:38:04]   Number of edges: 1190427
+[2024-12-17T16:38:04]
+[2024-12-17T16:38:05] Merged 22000000_22645885.gpickle and 20000000_21999999.gpickle into merged_3.gpickle
+[2024-12-17T16:38:14] Statistics for 6000000_7999999.gpickle:
+[2024-12-17T16:38:14]   Number of nodes: 961199
+[2024-12-17T16:38:15]   Number of edges: 2621033
+[2024-12-17T16:38:15]
+[2024-12-17T16:38:15] Statistics for 18000000_19999999.gpickle:
+[2024-12-17T16:38:15]   Number of nodes: 678024
+[2024-12-17T16:38:15]   Number of edges: 1686832
+[2024-12-17T16:38:15]
+[2024-12-17T16:38:31] Statistics for Merged Graph 6000000_7999999.gpickle + 18000000_19999999.gpickle:
+[2024-12-17T16:38:31]   Number of nodes: 1548134
+[2024-12-17T16:38:33]   Number of edges: 4307865
+[2024-12-17T16:38:33]
+[2024-12-17T16:38:37] Merged 6000000_7999999.gpickle and 18000000_19999999.gpickle into merged_4.gpickle
+[2024-12-17T16:38:38] Statistics for 0_1999999.gpickle:
+[2024-12-17T16:38:38]   Number of nodes: 53894
+[2024-12-17T16:38:38]   Number of edges: 193413
+[2024-12-17T16:38:38]
+[2024-12-17T16:38:38] Statistics for 2000000_3999999.gpickle:
+[2024-12-17T16:38:38]   Number of nodes: 271772
+[2024-12-17T16:38:38]   Number of edges: 885375
+[2024-12-17T16:38:38]
+[2024-12-17T16:38:41] Statistics for Merged Graph 0_1999999.gpickle + 2000000_3999999.gpickle:
+[2024-12-17T16:38:41]   Number of nodes: 303360
+[2024-12-17T16:38:41]   Number of edges: 1078788
+[2024-12-17T16:38:41]
+[2024-12-17T16:38:42] Merged 0_1999999.gpickle and 2000000_3999999.gpickle into merged_5.gpickle
+[2024-12-17T16:38:52] Statistics for merged_0.gpickle:
+[2024-12-17T16:38:52]   Number of nodes: 1116601
+[2024-12-17T16:38:53]   Number of edges: 3111276
+[2024-12-17T16:38:53]
+[2024-12-17T16:38:53] Statistics for merged_1.gpickle:
+[2024-12-17T16:38:53]   Number of nodes: 822738
+[2024-12-17T16:38:53]   Number of edges: 1933795
+[2024-12-17T16:38:53]
+[2024-12-17T16:39:11] Statistics for Merged Graph merged_0.gpickle + merged_1.gpickle:
+[2024-12-17T16:39:11]   Number of nodes: 1755252
+[2024-12-17T16:39:13]   Number of edges: 5045071
+[2024-12-17T16:39:13]
+[2024-12-17T16:39:18] Merged merged_0.gpickle and merged_1.gpickle into merged_0.gpickle
+[2024-12-17T16:39:25] Statistics for merged_2.gpickle:
+[2024-12-17T16:39:25]   Number of nodes: 704035
+[2024-12-17T16:39:25]   Number of edges: 1926652
+[2024-12-17T16:39:25]
+[2024-12-17T16:39:25] Statistics for merged_3.gpickle:
+[2024-12-17T16:39:25]   Number of nodes: 432853
+[2024-12-17T16:39:25]   Number of edges: 1190427
+[2024-12-17T16:39:25]
+[2024-12-17T16:39:37] Statistics for Merged Graph merged_2.gpickle + merged_3.gpickle:
+[2024-12-17T16:39:37]   Number of nodes: 1074687
+[2024-12-17T16:39:38]   Number of edges: 3117079
+[2024-12-17T16:39:38]
+[2024-12-17T16:39:41] Merged merged_2.gpickle and merged_3.gpickle into merged_1.gpickle
+[2024-12-17T16:39:52] Statistics for merged_4.gpickle:
+[2024-12-17T16:39:52]   Number of nodes: 1548134
+[2024-12-17T16:39:53]   Number of edges: 4307865
+[2024-12-17T16:39:53]
+[2024-12-17T16:39:53] Statistics for merged_5.gpickle:
+[2024-12-17T16:39:53]   Number of nodes: 303360
+[2024-12-17T16:39:54]   Number of edges: 1078788
+[2024-12-17T16:39:54]
+[2024-12-17T16:40:10] Statistics for Merged Graph merged_4.gpickle + merged_5.gpickle:
+[2024-12-17T16:40:10]   Number of nodes: 1784830
+[2024-12-17T16:40:12]   Number of edges: 5386653
+[2024-12-17T16:40:12]
+[2024-12-17T16:40:17] Merged merged_4.gpickle and merged_5.gpickle into merged_2.gpickle
+[2024-12-17T16:40:36] Statistics for merged_0.gpickle:
+[2024-12-17T16:40:36]   Number of nodes: 1755252
+[2024-12-17T16:40:37]   Number of edges: 5045071
+[2024-12-17T16:40:37]
+[2024-12-17T16:40:37] Statistics for merged_1.gpickle:
+[2024-12-17T16:40:37]   Number of nodes: 1074687
+[2024-12-17T16:40:38]   Number of edges: 3117079
+[2024-12-17T16:40:38]
+[2024-12-17T16:41:06] Statistics for Merged Graph merged_0.gpickle + merged_1.gpickle:
+[2024-12-17T16:41:06]   Number of nodes: 2446886
+[2024-12-17T16:41:09]   Number of edges: 8162150
+[2024-12-17T16:41:09]
+[2024-12-17T16:41:17] Merged merged_0.gpickle and merged_1.gpickle into merged_0.gpickle
+[2024-12-17T16:41:49] Statistics for merged_0.gpickle:
+[2024-12-17T16:41:49]   Number of nodes: 2446886
+[2024-12-17T16:41:51]   Number of edges: 8162150
+[2024-12-17T16:41:51]
+[2024-12-17T16:41:51] Statistics for merged_2.gpickle:
+[2024-12-17T16:41:51]   Number of nodes: 1784830
+[2024-12-17T16:41:53]   Number of edges: 5386653
+[2024-12-17T16:41:53]
+[2024-12-17T16:42:39] Statistics for Merged Graph merged_0.gpickle + merged_2.gpickle:
+[2024-12-17T16:42:39]   Number of nodes: 3486481
+[2024-12-17T16:42:43]   Number of edges: 13548803
+[2024-12-17T16:42:43]
+[2024-12-17T16:42:56] Merged merged_0.gpickle and merged_2.gpickle into merged_0.gpickle
+[2024-12-17T16:43:01] Final merged graph saved as merged_0.gpickle
+[2024-12-17T16:43:01] Total Execution Time (seconds): 976.0450719168875
+
+PS D:\Polkadot Project\Polkadot-graph-analysis> python3 -m app.scripts.graph_creator.graph_creator
+C:\Users\omard\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\eth_utils\network.py:44: UserWarning: Network 345 with name 'Yooldo Verse Mainnet' does not have a valid ChainId. eth-typing should be updated with the latest networks.
+  warnings.warn(
+C:\Users\omard\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\eth_utils\network.py:44: UserWarning: Network 12611 with name 'Astar zkEVM' does not have a valid ChainId. eth-typing should be updated with the latest networks.
+  warnings.warn(
+[2024-12-18T19:11:42] Processing next batch...
+[2024-12-18T19:11:42] package: mysql.connector.plugins
+[2024-12-18T19:11:42] plugin_name: caching_sha2_password
+[2024-12-18T19:11:42] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+[2024-12-18T19:11:49] Events count: 53468 between blocks 0 and 1000000
+[2024-12-18T19:11:49] Graph updated with events from blocks 0 to 999999
+[2024-12-18T19:12:07] New graph version 1 saved: exported_graph/updated_graph_1.gpickle
+[2024-12-18T19:12:07] Processing next batch...
+[2024-12-18T19:12:15] Events count: 359285 between blocks 1000000 and 2000000
+[2024-12-18T19:12:15] Graph updated with events from blocks 1000000 to 1999999
+[2024-12-18T19:12:32] New graph version 2 saved: exported_graph/updated_graph_2.gpickle
+[2024-12-18T19:12:32] Processing next batch...
+[2024-12-18T19:12:46] Events count: 453786 between blocks 2000000 and 3000000
+[2024-12-18T19:12:47] Graph updated with events from blocks 2000000 to 2999999
+[2024-12-18T19:13:04] New graph version 3 saved: exported_graph/updated_graph_3.gpickle
+[2024-12-18T19:13:04] Processing next batch...
+[2024-12-18T19:13:22] Events count: 510528 between blocks 3000000 and 4000000
+[2024-12-18T19:13:24] Graph updated with events from blocks 3000000 to 3999999
+[2024-12-18T19:13:41] New graph version 4 saved: exported_graph/updated_graph_4.gpickle
+[2024-12-18T19:13:41] Processing next batch...
+[2024-12-18T19:14:01] Events count: 639480 between blocks 4000000 and 5000000
+[2024-12-18T19:14:03] Graph updated with events from blocks 4000000 to 4999999
+[2024-12-18T19:14:21] New graph version 5 saved: exported_graph/updated_graph_5.gpickle
+[2024-12-18T19:14:21] Processing next batch...
+[2024-12-18T19:14:58] Events count: 1442394 between blocks 5000000 and 6000000
+[2024-12-18T19:15:02] Graph updated with events from blocks 5000000 to 5999999
+[2024-12-18T19:15:24] New graph version 6 saved: exported_graph/updated_graph_6.gpickle
+[2024-12-18T19:15:24] Processing next batch...
+[2024-12-18T19:16:00] Events count: 1422815 between blocks 6000000 and 7000000
+[2024-12-18T19:16:05] Graph updated with events from blocks 6000000 to 6999999
+[2024-12-18T19:16:28] New graph version 7 saved: exported_graph/updated_graph_7.gpickle
+[2024-12-18T19:16:28] Processing next batch...
+[2024-12-18T19:17:07] Events count: 1254883 between blocks 7000000 and 8000000
+[2024-12-18T19:17:11] Graph updated with events from blocks 7000000 to 7999999
+[2024-12-18T19:17:35] New graph version 8 saved: exported_graph/updated_graph_8.gpickle
+[2024-12-18T19:17:35] Processing next batch...
+[2024-12-18T19:18:08] Events count: 1308220 between blocks 8000000 and 9000000
+[2024-12-18T19:18:12] Graph updated with events from blocks 8000000 to 8999999
+[2024-12-18T19:18:39] New graph version 9 saved: exported_graph/updated_graph_9.gpickle
+[2024-12-18T19:18:39] Processing next batch...
+[2024-12-18T19:19:18] Events count: 1289819 between blocks 9000000 and 10000000
+[2024-12-18T19:19:22] Graph updated with events from blocks 9000000 to 9999999
+[2024-12-18T19:19:49] New graph version 10 saved: exported_graph/updated_graph_10.gpickle
+[2024-12-18T19:19:49] Processing next batch...
+[2024-12-18T19:20:34] Events count: 1332001 between blocks 10000000 and 11000000
+[2024-12-18T19:20:39] Graph updated with events from blocks 10000000 to 10999999
+[2024-12-18T19:21:08] New graph version 11 saved: exported_graph/updated_graph_11.gpickle
+[2024-12-18T19:21:08] Processing next batch...
+[2024-12-18T19:21:46] Events count: 1320001 between blocks 11000000 and 12000000
+[2024-12-18T19:21:51] Graph updated with events from blocks 11000000 to 11999999
+[2024-12-18T19:22:21] New graph version 12 saved: exported_graph/updated_graph_12.gpickle
+[2024-12-18T19:22:21] Processing next batch...
+[2024-12-18T19:23:08] Events count: 1355893 between blocks 12000000 and 13000000
+[2024-12-18T19:23:12] Graph updated with events from blocks 12000000 to 12999999
+[2024-12-18T19:23:44] New graph version 13 saved: exported_graph/updated_graph_13.gpickle
+[2024-12-18T19:23:44] Processing next batch...
+[2024-12-18T19:24:29] Events count: 1455116 between blocks 13000000 and 14000000
+[2024-12-18T19:24:34] Graph updated with events from blocks 13000000 to 13999999
+[2024-12-18T19:25:08] New graph version 14 saved: exported_graph/updated_graph_14.gpickle
+[2024-12-18T19:25:08] Processing next batch...
+[2024-12-18T19:26:03] Events count: 1557549 between blocks 14000000 and 15000000
+[2024-12-18T19:26:08] Graph updated with events from blocks 14000000 to 14999999
+[2024-12-18T19:26:43] New graph version 15 saved: exported_graph/updated_graph_15.gpickle
+[2024-12-18T19:26:43] Processing next batch...
+[2024-12-18T19:27:24] Events count: 1571804 between blocks 15000000 and 16000000
+[2024-12-18T19:27:29] Graph updated with events from blocks 15000000 to 15999999
+[2024-12-18T19:28:05] New graph version 16 saved: exported_graph/updated_graph_16.gpickle
+[2024-12-18T19:28:05] Processing next batch...
+[2024-12-18T19:28:53] Events count: 1557065 between blocks 16000000 and 17000000
+[2024-12-18T19:28:58] Graph updated with events from blocks 16000000 to 16999999
+[2024-12-18T19:29:37] New graph version 17 saved: exported_graph/updated_graph_17.gpickle
+[2024-12-18T19:29:37] Processing next batch...
+[2024-12-18T19:30:32] Events count: 1559845 between blocks 17000000 and 18000000
+[2024-12-18T19:30:37] Graph updated with events from blocks 17000000 to 17999999
+[2024-12-18T19:31:18] New graph version 18 saved: exported_graph/updated_graph_18.gpickle
+[2024-12-18T19:31:18] Processing next batch...
+[2024-12-18T19:31:53] Events count: 1554615 between blocks 18000000 and 19000000
+[2024-12-18T19:31:58] Graph updated with events from blocks 18000000 to 18999999
+[2024-12-18T19:32:40] New graph version 19 saved: exported_graph/updated_graph_19.gpickle
+[2024-12-18T19:32:40] Processing next batch...
+[2024-12-18T19:33:49] Events count: 1567499 between blocks 19000000 and 20000000
+[2024-12-18T19:33:54] Graph updated with events from blocks 19000000 to 19999999
+[2024-12-18T19:34:38] New graph version 20 saved: exported_graph/updated_graph_20.gpickle
+[2024-12-18T19:34:38] Processing next batch...
+[2024-12-18T19:35:42] Events count: 1504800 between blocks 20000000 and 21000000
+[2024-12-18T19:35:47] Graph updated with events from blocks 20000000 to 20999999
+[2024-12-18T19:36:32] New graph version 21 saved: exported_graph/updated_graph_21.gpickle
+[2024-12-18T19:36:32] Processing next batch...
+[2024-12-18T19:37:16] Events count: 1496005 between blocks 21000000 and 22000000
+[2024-12-18T19:37:21] Graph updated with events from blocks 21000000 to 21999999
+[2024-12-18T19:38:08] New graph version 22 saved: exported_graph/updated_graph_22.gpickle
+[2024-12-18T19:38:08] Processing next batch...
+[2024-12-18T19:38:58] Events count: 1516114 between blocks 22000000 and 23000000
+[2024-12-18T19:39:03] Graph updated with events from blocks 22000000 to 22999999
+[2024-12-18T19:39:52] New graph version 23 saved: exported_graph/updated_graph_23.gpickle
+[2024-12-18T19:39:52] Processing next batch...
+[2024-12-18T19:39:58] Events count: 153081 between blocks 23000000 and 23098211
+[2024-12-18T19:39:59] Graph updated with events from blocks 23000000 to 23098210
+[2024-12-18T19:40:47] New graph version 24 saved: exported_graph/updated_graph_24.gpickle
+[2024-12-18T19:40:47] Processing next batch for claim attests...
+[2024-12-18T19:40:48] Events count: 2163 between blocks 0 and 1000000
+[2024-12-18T19:40:48] Graph updated with claim attests from blocks 0 to 999999
+[2024-12-18T19:41:37] New graph version 25 saved: exported_graph/updated_graph_25.gpickle
+[2024-12-18T19:41:37] Processing next batch for claim attests...
+[2024-12-18T19:41:37] Events count: 1004 between blocks 1000000 and 2000000
+[2024-12-18T19:41:37] Graph updated with claim attests from blocks 1000000 to 1999999
+[2024-12-18T19:42:26] New graph version 26 saved: exported_graph/updated_graph_26.gpickle
+[2024-12-18T19:42:26] Processing next batch for claim attests...
+[2024-12-18T19:42:26] Events count: 124 between blocks 2000000 and 3000000
+[2024-12-18T19:42:26] Graph updated with claim attests from blocks 2000000 to 2999999
+[2024-12-18T19:43:16] New graph version 27 saved: exported_graph/updated_graph_27.gpickle
+[2024-12-18T19:43:16] Processing next batch for claim attests...
+[2024-12-18T19:43:16] Events count: 221 between blocks 3000000 and 4000000
+[2024-12-18T19:43:16] Graph updated with claim attests from blocks 3000000 to 3999999
+[2024-12-18T19:44:05] New graph version 28 saved: exported_graph/updated_graph_28.gpickle
+[2024-12-18T19:44:05] Processing next batch for claim attests...
+[2024-12-18T19:44:05] Events count: 53 between blocks 4000000 and 5000000
+[2024-12-18T19:44:05] Graph updated with claim attests from blocks 4000000 to 4999999
+[2024-12-18T19:44:53] New graph version 29 saved: exported_graph/updated_graph_29.gpickle
+[2024-12-18T19:44:53] Processing next batch for claim attests...
+[2024-12-18T19:44:53] Events count: 11 between blocks 5000000 and 6000000
+[2024-12-18T19:44:53] Graph updated with claim attests from blocks 5000000 to 5999999
+[2024-12-18T19:45:42] New graph version 30 saved: exported_graph/updated_graph_30.gpickle
+[2024-12-18T19:45:42] Processing next batch for claim attests...
+[2024-12-18T19:45:42] Events count: 14 between blocks 6000000 and 7000000
+[2024-12-18T19:45:42] Graph updated with claim attests from blocks 6000000 to 6999999
+[2024-12-18T19:46:31] New graph version 31 saved: exported_graph/updated_graph_31.gpickle
+[2024-12-18T19:46:31] Processing next batch for claim attests...
+[2024-12-18T19:46:31] New graph version 31 saved: exported_graph/updated_graph_31.gpickle
+[2024-12-18T19:46:31] Processing next batch for claim attests...
+[2024-12-19T09:31:00] Events count: 27 between blocks 7000000 and 8000000
+[2024-12-19T09:31:00] Graph updated with claim attests from blocks 7000000 to 7999999
+[2024-12-19T09:31:31] New graph saved: exported_graph/updated_graph_32.gpickle
+[2024-12-19T09:31:31] Processing next batch for claim attests...
+[2024-12-19T09:31:31] Events count: 9 between blocks 8000000 and 9000000
+[2024-12-19T09:31:31] Graph updated with claim attests from blocks 8000000 to 8999999
+[2024-12-19T09:32:01] New graph saved: exported_graph/updated_graph_33.gpickle
+[2024-12-19T09:32:01] Processing next batch for claim attests...
+[2024-12-19T09:32:01] Events count: 4 between blocks 9000000 and 10000000
+[2024-12-19T09:32:01] Graph updated with claim attests from blocks 9000000 to 9999999
+[2024-12-19T09:32:30] New graph saved: exported_graph/updated_graph_34.gpickle
+[2024-12-19T09:32:30] Processing next batch for claim attests...
+[2024-12-19T09:32:30] Events count: 0 between blocks 10000000 and 11000000
+[2024-12-19T09:32:30] Graph updated with claim attests from blocks 10000000 to 10999999
+[2024-12-19T09:33:01] New graph saved: exported_graph/updated_graph_35.gpickle
+[2024-12-19T09:33:01] Processing next batch for claim attests...
+[2024-12-19T09:33:01] Events count: 1 between blocks 11000000 and 12000000
+[2024-12-19T09:33:01] Graph updated with claim attests from blocks 11000000 to 11999999
+[2024-12-19T09:33:32] New graph saved: exported_graph/updated_graph_36.gpickle
+[2024-12-19T09:33:32] Processing next batch for claim attests...
+[2024-12-19T09:33:32] Events count: 3 between blocks 12000000 and 13000000
+[2024-12-19T09:33:32] Graph updated with claim attests from blocks 12000000 to 12999999
+[2024-12-19T09:34:03] New graph saved: exported_graph/updated_graph_37.gpickle
+[2024-12-19T09:34:03] Processing next batch for claim attests...
+[2024-12-19T09:34:03] Events count: 0 between blocks 13000000 and 14000000
+[2024-12-19T09:34:03] Graph updated with claim attests from blocks 13000000 to 13999999
+[2024-12-19T09:34:33] New graph saved: exported_graph/updated_graph_38.gpickle
+[2024-12-19T09:34:33] Processing next batch for claim attests...
+[2024-12-19T09:34:33] Events count: 1 between blocks 14000000 and 15000000
+[2024-12-19T09:34:33] Graph updated with claim attests from blocks 14000000 to 14999999
+[2024-12-19T09:35:03] New graph saved: exported_graph/updated_graph_39.gpickle
+[2024-12-19T09:35:03] Processing next batch for claim attests...
+[2024-12-19T09:35:03] Events count: 0 between blocks 15000000 and 16000000
+[2024-12-19T09:35:03] Graph updated with claim attests from blocks 15000000 to 15999999
+[2024-12-19T09:35:33] New graph saved: exported_graph/updated_graph_40.gpickle
+[2024-12-19T09:35:33] Processing next batch for claim attests...
+[2024-12-19T09:35:33] Events count: 0 between blocks 16000000 and 17000000
+[2024-12-19T09:35:33] Graph updated with claim attests from blocks 16000000 to 16999999
+[2024-12-19T09:36:03] New graph saved: exported_graph/updated_graph_41.gpickle
+[2024-12-19T09:36:03] Processing next batch for claim attests...
+[2024-12-19T09:36:03] Events count: 1 between blocks 17000000 and 18000000
+[2024-12-19T09:36:03] Graph updated with claim attests from blocks 17000000 to 17999999
+[2024-12-19T09:36:33] New graph saved: exported_graph/updated_graph_42.gpickle
+[2024-12-19T09:36:33] Processing next batch for claim attests...
+[2024-12-19T09:36:33] Events count: 3 between blocks 18000000 and 19000000
+[2024-12-19T09:36:33] Graph updated with claim attests from blocks 18000000 to 18999999
+[2024-12-19T09:37:03] New graph saved: exported_graph/updated_graph_43.gpickle
+[2024-12-19T09:37:03] Processing next batch for claim attests...
+[2024-12-19T09:37:04] Events count: 2 between blocks 19000000 and 20000000
+[2024-12-19T09:37:04] Graph updated with claim attests from blocks 19000000 to 19999999
+[2024-12-19T09:37:34] New graph saved: exported_graph/updated_graph_44.gpickle
+[2024-12-19T09:37:34] Processing next batch for claim attests...
+[2024-12-19T09:37:34] Events count: 0 between blocks 20000000 and 21000000
+[2024-12-19T09:37:34] Graph updated with claim attests from blocks 20000000 to 20999999
+[2024-12-19T09:38:05] New graph saved: exported_graph/updated_graph_45.gpickle
+[2024-12-19T09:38:05] Processing next batch for claim attests...
+[2024-12-19T09:38:05] Events count: 1 between blocks 21000000 and 22000000
+[2024-12-19T09:38:05] Graph updated with claim attests from blocks 21000000 to 21999999
+[2024-12-19T09:38:35] New graph saved: exported_graph/updated_graph_46.gpickle
+[2024-12-19T09:38:35] Processing next batch for claim attests...
+[2024-12-19T09:38:35] Events count: 1 between blocks 22000000 and 23000000
+[2024-12-19T09:38:35] Graph updated with claim attests from blocks 22000000 to 22999999
+[2024-12-19T09:39:05] New graph saved: exported_graph/updated_graph_47.gpickle
+[2024-12-19T09:39:05] Processing next batch for claim attests...
+[2024-12-19T09:39:05] Events count: 0 between blocks 23000000 and 23098211
+[2024-12-19T09:39:05] Graph updated with claim attests from blocks 23000000 to 23098210
+[2024-12-19T09:39:35] New graph saved: exported_graph/updated_graph_48.gpickle

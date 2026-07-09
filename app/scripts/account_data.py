@@ -180,7 +180,7 @@ if __name__ == '__main__':
                         snapshot = AccountInfoSnapshot(
                             block_id=second_index,
                             account_id=account.address,
-                            pkey=account.pkey,
+                            pkey=account.pkey_hex,
                             balance_free=account_info['data']['free'].value / 10 ** token_decimals,
                             balance_reserved=account_info['data']['reserved'].value / 10 ** token_decimals,
                             balance_total=(account_info["data"]["free"].value + account_info["data"][

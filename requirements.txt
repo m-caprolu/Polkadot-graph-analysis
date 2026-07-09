@@ -1,11 +1,11 @@
-substrate-interface==1.1.9
-scalecodec==1.0.30
+substrate-interface==1.7.10
+scalecodec==1.2.11
 mysql-connector-python~=8.0.27
 SQLAlchemy~=1.4.29
 #dictalchemy~=0.1.2.7
 pytz>=2018.9
 python-dateutil~=2.8.0
-matplotlib~=3.5.1
+matplotlib==3.9.0
 networkx==2.6.3
 django==4.0.2
 #pyodbc==4.0.34
